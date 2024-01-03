@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(228, 165, 121);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height:1.7;
+    font-size: 16px;;
+
+}
+.image{
+    border-image: round;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+}   
+.image1{
+    border-image: round;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin: 20px 20px;
+      
+}  
+.image2{
+    border-image: round;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    margin: 20px 20px;
+      
+}  
+.skill-image{
+    display: inline;
+    margin-bottom: 20px;
+} 
+
+.card-header{
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+}
+.card-header h3{
+    opacity: 70%;;
+}
+.card-header p{
+    opacity: 70%;
+    
+}
+.main{
+    max-width: 1440px;
+    margin:100px auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 40px;
+    gap: 40px;
+   
+    
+    
+}
+.left-contact{
+    display: flex;
+    align-items: center;
+}
+.left-contact1{
+    display: flex;
+    align-items: center;
+}
+.left-contact2{
+    display: flex;
+    align-items: center;
+}
+.left{
+
+    max-width: 600px;
+    background-color: brown;
+    box-shadow: 10px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.centre{
+    background-color: brown;
+    box-shadow: 10px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.centre h3{
+    background-color: lightcoral;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
+.centre h4{
+   
+    padding: 10px;
+    margin: auto;
+}
+.centre h5{
+   
+    padding: 10px;
+    margin-bottom: 1px;
+}
+.left h3{
+    background-color: lightcoral;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.card1{
+    background-color: rgb(227, 133, 133);
+    border-radius: 60px;
+    max-width: 600px;
+}
+
+.h3andh4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.card2{
+    background-color: rgb(227, 133, 133);
+    border-radius: 60px;
+    border-left: 60px;
+    max-width: 1200px;
+
+}
+.card3{
+    background-color: rgb(227, 133, 133);
+    border-radius: 60px;
+    border-left: 60px;
+    max-width: 300px;
+
+}
+
+.right{
+    background-color: brown;
+    box-shadow: 10px;
+    padding: 20px;
+    border-radius: 50px;
+   
+
+}
+.right h2{
+    background-color: lightcoral;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+.achieve
+{
+    margin-top: 10px;
+}
+.right h3{
+    background-color: lightcoral;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+
+}
+.right p{
+    color   : white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+
+}
+.right h4{
+    padding: 10px;
+    margin: auto;
+
+}
+.right h5{
+    padding: 10px;
+    margin: auto;
+}
+.hob{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 28px;
+    margin-right: 20px;
+}
